@@ -1,0 +1,23 @@
+{
+  "name": "pharce",
+  "author": "Jared Stilwell",
+  "version": "0.1.0",
+  "readme": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jared-stilwell/pharce/blob/master/LICENSE"
+    }
+  ],
+  "bin": {
+    "pharce": "bin/pharce"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "connect": "~2.12.0",
+    "connect-php": "0.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var server = require('../lib/server.js');
+
+server.start();
+
+console.info('Server started at http://localhost:9001/');
+console.info('Enjoy!');
