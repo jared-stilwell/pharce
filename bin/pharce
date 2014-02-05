@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 
+var program = require('commander');
 var server = require('../lib/server.js');
 
-server.start();
+program
+	.version('0.1.2')
+	.option('-p, --port [value]',	'Listening Port Number')
+	.option('-s, --static [value]', 'Static Asset Path')
+	.option('-b, --base [value]',	'Base directory for PHP files')
+	.parse( process.argv );
 
-console.info('Server started at http://localhost:9001/');
-console.info('Enjoy!');
+server.start( program );
