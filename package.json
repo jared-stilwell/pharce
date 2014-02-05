@@ -2,7 +2,7 @@
   "name": "pharce",
   "description": "Simple Node.js php server",
   "author": "Jared Stilwell",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jared-stilwell/pharce",
   "licenses": [
     {
